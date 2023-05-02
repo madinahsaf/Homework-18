@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+section {
+  background-color: rgb(234, 234, 228);
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: xx-large;
+  font-family: 'Inter';
+  font-weight: 500;
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+.container {
+ font-family:'Inter';
+ display: flex;
+ justify-content: center;
+ font-size: large;
+  padding: 0 1rem;
+}
+
+.textbox {
+
+}
+
+.textbox h1 {
+  font-size: x-large;
+  font-family: 'Inter';
+}
+
+
+.img-1 {
+max-width: 100%;
+flex-basis: 20%;
+margin-top: 2rem;
+margin-bottom: 1rem;
+margin-right: 1rem;
+
+}
+
+
+
+.textbox h1{
+  margin-bottom: 2rem;
+}
+
+
+button {
+  width: 120px;
+  height: 40px;
+  border-radius: 60px;
+  color: white;
+  background-color: rgb(33, 113, 105);
+  border: none;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  font-size: large;
+  font-family: 'Inter';
+  
+}
+
+h2 {
+  font-family: 'Inter';
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1%;
+}
