@@ -9,6 +9,7 @@
   box-sizing: border-box;
   outline: none;
   border: none;
+  color: black;
 }
 
 nav {
@@ -32,74 +33,53 @@ nav ul li a {
 
 /*boxes css*/
 
-
-.container .heading {
+ .heading {
   text-align: center;
   color: black;
   font-size: 50px;
-  margin-bottom: 2rem;
+  margin: 2rem;
   font-family: Arial, Helvetica, sans-serif;
 }
 
- .container .box-container {
- display: flex; 
+ .container {
+ display: flex;
  justify-content: center;
- gap: 20px;  
 }
 
-.box {
-  background-color: rgb(235, 222, 222);
-  padding: 1rem;
-  border-radius: 10px;
-  gap: 10px;
-  align-items: center;
+.card {
+  background-color: rgb(247, 225, 229);
+  auto height: 500px;
+  auto width: 400px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
 }
 
-.box img {
-  max-width: 100px;
-  height: 100px;
-}
-
-.box .userresearch-img {
-  display: flex;
-  justify-content: center;
-}
-
-.box .userinterfacedesign-img {
-  display: flex;
-  justify-content: center;
-}
-
-.box .webdevelopment-img {
-  display: flex;
-  justify-content: center;
+.card-img {
+  display: block;
+  margin: auto;
 }
 
 
-h4 {
-  margin-bottom: 1rem;
-  font-size: large;
+h2 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   display: flex;
   justify-content: center;
 }
 
 p {
-  margin-bottom: 1rem;
+ margin: 40px;
 }
 
-.btn {
-  text-align: center;
-  height: 45px;
-  width: 50px
-  border-radius: 35px;
-  border-style: none;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
-  
-}
-
-button {
-  width: 100px;
-border-radius: 5px;
+.card button {
+  width: 130px;
+  height: 35px;
+  font-size: medium;
+  border-radius: 5px;
+  padding: 5px 8px;
+  background-color: rgb(255, 120, 149);
 
 }
+
